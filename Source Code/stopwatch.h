@@ -5,6 +5,7 @@
  *
  * Purpose: Header file for stopwatch functions
  */
+
 #ifndef _STOPWATCH_H_
 #define _STOPWATCH_H_
 
