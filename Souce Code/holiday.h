@@ -49,13 +49,15 @@ void addHolidayRecord(Holiday* record, unsigned char is_dynamic);
  * param[in] month - input month
  * param[in] day - input day
  * param[in] index - If there is a holiday,
- *					 then pass the index of holiday list to this param;
- *				   - Otherwise, it points to a zero value.
+ *		     then pass the index of holiday list to this param;
+ *		   - Otherwise, it points to a zero value.
  *
  * returns - boolean value true if that date is a holiday, otherwise false
  */
-bool isHoliday(unsigned int year, unsigned int month, unsigned int day,
-	unsigned int* index);
+bool isHoliday(unsigned int year, 
+	       unsigned int month, 
+	       unsigned int day,
+	       unsigned int* index);
 
 /*
  * This function display holidays information on certain date
@@ -73,11 +75,11 @@ bool isHoliday(unsigned int year, unsigned int month, unsigned int day,
  * returns - none
  */
 void displayHolidays(unsigned int year,
-					 unsigned int month,
-				     unsigned int day,
-					 unsigned int* is_holiday,
-					 unsigned int* is_holiday_list,
-					 unsigned int* num_holiday);
+		     unsigned int month,
+		     unsigned int day,
+	             unsigned int* is_holiday,
+	 	     unsigned int* is_holiday_list,
+		     unsigned int* num_holiday);
 
 
 /*
@@ -91,7 +93,7 @@ void displayHolidays(unsigned int year,
  * returns - none
  */
 void displayMonthlyHolidays(unsigned int month, 
-							unsigned int year,
-							unsigned int* coord_x, 
-							unsigned int* coord_y);
+			    unsigned int year,
+			    unsigned int* coord_x, 
+			    unsigned int* coord_y);
 #endif
