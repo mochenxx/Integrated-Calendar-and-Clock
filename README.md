@@ -1,2 +1,40 @@
-# Integrated-Calendar-and-Clock
-C-based integrated calendar and clock project
+# Integrated-Calendar-and-Clock-App
+This project is a C-based integrated calendar and clock application. It provides a easy way to select dates within a command-line calenar, manage birthdays, display and schedule events. Also, this application implements stopwatch, countdown timer, and world clock functionalities.
+
+## Table of Contents
+
+- [Compatability](#compatability)
+- [Architecture](#architecture)
+- [Features](#features)
+- [Videos](#videos)
+- [Contact](#contact)
+
+
+## Compatability
+
+- Operating System: Windows 10
+- Compiler: Microsoft Visual C++ 2019
+
+## Architecture
+
+![architecture](https://github.com/mochenxx/Integrated-Calendar-and-Clock/blob/master/app_architecture.png)
+
+## Features
+
+- Quick event creation - Smart suggestions for event titles, places and duration time save your time when creating evnets
+- Fast navigation between dates - Left / Right / Up / Down arrows from keyborad to switch months & years
+- Easy to use interface makes it super simple to get a quick overview of the upcoming birthdays, holidays, and events (also shown in the calendar with corresponding icons)
+
+
+
+## Videos
+
+A quick screenshot of displaying the calendar interface is shown as below:
+
+![screenshot](https://github.com/mochenxx/Integrated-Calendar-and-Clock/blob/master/calendar_demo.gif)
+
+See the whole [demo video](https://github.com/mochenxx/Integrated-Calendar-and-Clock/blob/master/Calendar_Project_Video.mp4) for more information.
+
+## Contact
+
+You can reach me at mo.chen19@outlook.com for technical support or feel free to open an issue [here](https://github.com/mochenxx/Integrated-Calendar-and-Clock/issues) :)
