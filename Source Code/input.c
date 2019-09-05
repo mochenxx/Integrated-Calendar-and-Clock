@@ -37,7 +37,7 @@ bool isNumber(char s[])
 void inputMonthYear(int* p_month, int* p_year)
 {
 	char month_string[20], year_string[20];		// Input month & year strings
-	unsigned char error_flag = 0;	// flag for whether error occurs
+	unsigned char error_flag = 0;			// Flag for whether error occurs
 
 	while (true)
 	{
@@ -92,7 +92,7 @@ void inputDate(Date *p_date, int cur_month, int cur_year)
 	char day_str[DATE_MAX_LIMIT],
 		 month_str[DATE_MAX_LIMIT],
 		 year_str[DATE_MAX_LIMIT];
-	unsigned char error_flag = 0;	// flag for whether error occurs
+	unsigned char error_flag = 0;	// Flag for whether error occurs
 
 	while (true)
 	{
