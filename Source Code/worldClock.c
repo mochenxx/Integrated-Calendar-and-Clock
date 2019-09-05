@@ -124,7 +124,7 @@ void worldClock(void)
 	char key = 0;
 	unsigned int i, new_clock_idx = 0;
 	unsigned int have_deleted_clock = 0;	// Flag indicating if a clock 
-											// has been deleted
+						// has been deleted
 
 	displayWorldClockMenu();
 
