@@ -123,5 +123,5 @@ void askDeleteBday(unsigned int* is_birthday_list, unsigned int* length);
  * @returns - none
  */
 void displayMonthlyBdays(unsigned int month, unsigned int year,
-				  	     unsigned int* coord_x, unsigned int* coord_y);
+			 unsigned int* coord_x, unsigned int* coord_y);
 #endif
