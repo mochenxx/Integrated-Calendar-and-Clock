@@ -1,5 +1,5 @@
 # Integrated-Calendar-and-Clock-App
-This project is a C-based integrated calendar and clock application. It provides a easy way to select dates within a command-line calenar, manage birthdays, display and schedule events. Also, this application implements stopwatch, countdown timer, and world clock functionalities.
+This project is a C-based integrated calendar and clock application. It provides an easy way to select dates within a command-line calendar, manage birthdays, display and schedule events. Also, this application implements stopwatch, countdown timer, and world clock functionalities.
 
 ## Table of Contents
 
@@ -44,8 +44,7 @@ A quick screenshot of displaying the calendar interface is shown as below:
 
 ![screenshot](https://github.com/mochenxx/Integrated-Calendar-and-Clock/blob/master/calendar_demo.gif)
 
-See the whole [demo video](https://github.com/mochenxx/Integrated-Calendar-and-Clock/blob/master/Calendar_Project_Video.mp4) for more information.
-
+Download the whole [demo video in Github](https://github.com/mochenxx/Integrated-Calendar-and-Clock/blob/master/Calendar_Project_Video.mp4) or watch the [presentaion on youtube](https://www.youtube.com/watch?v=B96RtPclpe0) for more information.
 ## Contact
 
 You can reach me at mo.chen19@outlook.com for technical support or feel free to open an issue [here](https://github.com/mochenxx/Integrated-Calendar-and-Clock/issues) :)
