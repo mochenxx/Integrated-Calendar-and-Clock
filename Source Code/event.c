@@ -39,13 +39,11 @@ void addEvent(Date* new_date)
 
 	// Get starting time
 	printf("Starts (format is HH:MM): ");
-	(void)scanf("%d:%d", &new_event.time.start_hour,
-						   &new_event.time.start_minute);
+	(void)scanf("%d:%d", &new_event.time.start_hour, &new_event.time.start_minute);
 
 	// Get ending time
 	printf("Ends (format is HH:MM): ");
-	(void)scanf("%d:%d", &new_event.time.end_hour, 
-						   &new_event.time.end_minute);
+	(void)scanf("%d:%d", &new_event.time.end_hour, &new_event.time.end_minute);
 
 	// Print success Info
 	printf("\nEvent information has been successfully added!\n");
@@ -159,15 +157,15 @@ void displayEvents (unsigned int year,
 			event_list[i].record.time.end_minute,
 			event_list[i].record.place);
 
-		*is_event = 1;				// Set flag to 1
+		*is_event = 1;			// Set flag to 1
 		is_event_list[count] = i;	// Store its index i to a list
-		count++;					// Increment count
+		count++;			// Increment count
 	}
 	*num_event = count;
 }
 
 void displayMonthlyEvents(unsigned int month, unsigned int year,
-						  unsigned int* coord_x, unsigned int* coord_y)
+			  unsigned int* coord_x, unsigned int* coord_y)
 {
 	// Get number of days on input month
 	unsigned int month_len = getMonthDays(month, year);
