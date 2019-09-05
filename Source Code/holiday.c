@@ -13,7 +13,7 @@
 #include "setColor.h"
 #include "setCursor.h"
 
-unsigned int holiday_list_count = 0;				// Holiday list count
+unsigned int holiday_list_count = 0;			// Holiday list count
 HolidayFileRecord holiday_list[HOLIDAY_LIST_MAX];	// Holiday file record list
 
 void addHolidayRecord(Holiday* record, unsigned char is_dynamic)
@@ -67,14 +67,14 @@ bool isHoliday(unsigned int year, unsigned int month,
 }
 
 void displayHolidays(unsigned int year, 
-					 unsigned int month, 
-					 unsigned int day, 
-				     unsigned int* is_holiday,
-					 unsigned int* is_holiday_list, 
-					 unsigned int* num_holiday)
+		     unsigned int month, 
+		     unsigned int day, 
+		     unsigned int* is_holiday,
+		     unsigned int* is_holiday_list, 
+		     unsigned int* num_holiday)
 {
 	unsigned int i, count = 0;
-	*is_holiday = 0;	// Flag indicating if there is an holiday on input date
+	*is_holiday = 0;	// Flag indicating if there is no holiday on input date
 
 	for (i = 0; i < holiday_list_count; i++)
 	{
@@ -103,19 +103,20 @@ void displayHolidays(unsigned int year,
 			month_names_abbr[month],
 			day,
 			year);
-
-		*is_holiday = 1;	// Set flag to zero indicating there is a holiday
-		is_holiday_list[count] = i;		// Store holiday's index value i
-		count++;	// Increment count
+		
+		
+		*is_holiday = 1;		// Set flag to one	
+		is_holiday_list[count] = i;	// Store holiday's index value i
+		count++;			// Increment count
 	}
 
 	*num_holiday = count;	// Pass count value to *num_holiday
 }
 
 void displayMonthlyHolidays(unsigned int month,
-							unsigned int year,
-							unsigned int* coord_x,
-							unsigned int* coord_y)
+			    unsigned int year,
+			    unsigned int* coord_x,
+			    unsigned int* coord_y)
 {
 	// Get number of days on input month
 	unsigned int month_len = getMonthDays(month, year);
