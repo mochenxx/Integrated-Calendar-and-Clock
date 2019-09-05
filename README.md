@@ -20,12 +20,23 @@ This project is a C-based integrated calendar and clock application. It provides
 ![architecture](https://github.com/mochenxx/Integrated-Calendar-and-Clock/blob/master/app_architecture.png)
 
 ## Features
+### Calendar
+- Rapid navigation between dates using `Left/Right/Up/Down arrows` from keyborad to switch months & years
+- Birthday creation and management
+- Event creation: Smart suggestions for event titles, places and duration time save your time when creating evnets
+- A quick overview of the upcoming birthdays, holidays, and events (shown in the calendar with corresponding icons)
 
-- Quick event creation - Smart suggestions for event titles, places and duration time save your time when creating evnets
-- Fast navigation between dates - Left / Right / Up / Down arrows from keyborad to switch months & years
-- Easy to use interface makes it super simple to get a quick overview of the upcoming birthdays, holidays, and events (also shown in the calendar with corresponding icons)
+### Stopwatch and Timer
+- Beautiful and clean interfaces
+- Support laps recording
+- Extremely easy to start, pause, resume and reset
 
+### World CLock
+- 20+ cities from all around the globe with current time information
+- Store and load your added city time when using this feature to easily view the local time for your interested locations
 
+### One more thing
+This project adopts modular programming which emphasize on breaking large program into small problems to increase maintainability, readability of the code and to make the program handy to make any changes in future or to correct the errors. It allows
 
 ## Videos
 
