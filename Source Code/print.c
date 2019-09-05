@@ -105,8 +105,8 @@ void displayCalendar(unsigned int month, unsigned int year)
 
 		/* Check if there are birthday & holiday & event on a day */
 		if (isBirthday(month, i, &bday_index) &&
-			isHoliday(year, month, i, &holiday_idx)
-			&& isEvent(year, month, i, &event_index))
+		    isHoliday(year, month, i, &holiday_idx) &&
+		    isEvent(year, month, i, &event_index))
 		{
 			// Print signs
 			setColor(BDAY_SIGN_COLOR);
@@ -119,7 +119,7 @@ void displayCalendar(unsigned int month, unsigned int year)
 
 		/* Check if there are birthday & holiday on a day */
 		else if (isBirthday(month, i, &bday_index) &&
-				 isHoliday(year, month, i, &holiday_idx))
+			 isHoliday(year, month, i, &holiday_idx))
 		{
 			// Print signs
 			setColor(BDAY_SIGN_COLOR);
@@ -132,7 +132,7 @@ void displayCalendar(unsigned int month, unsigned int year)
 
 		/* Check if there are birthday & event on a day */
 		else if (isBirthday(month, i, &bday_index) && 
-				 isEvent(year, month, i, &event_index))
+			 isEvent(year, month, i, &event_index))
 		{
 			// Print signs
 			setColor(BDAY_SIGN_COLOR);
@@ -145,7 +145,7 @@ void displayCalendar(unsigned int month, unsigned int year)
 
 		/* Check if there are holiday & event on a day */
 		else if (isHoliday(year, month, i, &holiday_idx) &&
-			     isEvent(year, month, i, &event_index))
+			 isEvent(year, month, i, &event_index))
 		{
 			// Print signs
 			setColor(HOLIDAY_SIGN_COLOR);
@@ -230,7 +230,7 @@ void printInvalidError(unsigned int max)
 
 void displayUpcomingEvents(COORD coord, unsigned int month, unsigned int year)
 {
-	unsigned int new_coord_x, new_coord_y;	// New coordinates
+	unsigned int new_coord_x, new_coord_y;    // New coordinates
 
 	new_coord_x = 60;
 	new_coord_y = 2;
