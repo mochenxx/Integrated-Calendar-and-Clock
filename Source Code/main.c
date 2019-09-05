@@ -32,9 +32,9 @@
 int main()
 {
 	unsigned int month, year;
-	unsigned int is_birthday = 0, is_event = 0; // Flags for a given date
-	int key_code;	// User input from keyboard
-	unsigned int given_date_bdays[20] = { 0 };  // Birthdays info on given date
+	unsigned int is_birthday = 0, is_event = 0; 	// Flags for a given date
+	int key_code;					// User input from keyboard
+	unsigned int given_date_bdays[20] = { 0 };  	// Birthdays info on given date
 	unsigned int given_date_events[20] = { 0 };	// All Events on a given date
 	
 	// number of birthday, holiday, event on certain date
@@ -259,5 +259,5 @@ int main()
 				break;
 			}
 		}	
-	} while (key_code != KEY_ESC); // Break if hits key ESC
+	} while (key_code != KEY_ESC); 	// Break if hits key ESC
 }
