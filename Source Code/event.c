@@ -39,11 +39,15 @@ void addEvent(Date* new_date)
 
 	// Get starting time
 	printf("Starts (format is HH:MM): ");
-	(void)scanf("%d:%d", &new_event.time.start_hour, &new_event.time.start_minute);
+	(void)scanf("%d:%d", 
+		    &new_event.time.start_hour, 
+		    &new_event.time.start_minute);
 
 	// Get ending time
 	printf("Ends (format is HH:MM): ");
-	(void)scanf("%d:%d", &new_event.time.end_hour, &new_event.time.end_minute);
+	(void)scanf("%d:%d", 
+		    &new_event.time.end_hour, 
+		    &new_event.time.end_minute);
 
 	// Print success Info
 	printf("\nEvent information has been successfully added!\n");
@@ -91,8 +95,10 @@ unsigned int getEventListCount(void)
 	return event_list_count;
 }
 
-bool isEvent(unsigned int year, unsigned int month, unsigned int day,
-			 unsigned int* index)
+bool isEvent(unsigned int year, 
+	     unsigned int month, 
+	     unsigned int day,
+	     unsigned int* index)
 {
 	unsigned int i;
 	*index = 0;		// Index of event in event list 
@@ -122,11 +128,11 @@ bool isEvent(unsigned int year, unsigned int month, unsigned int day,
 }
 
 void displayEvents (unsigned int year, 
-					  unsigned int month, 
-					  unsigned int day,
-					  unsigned int* is_event,
-					  unsigned int* is_event_list, 
-					  unsigned int* num_event)
+		    unsigned int month, 
+		    unsigned int day,
+       		    unsigned int* is_event,
+		    unsigned int* is_event_list, 
+   		    unsigned int* num_event)
 {
 	unsigned int i, count = 0;
 	*is_event = 0;	// Flag that indicate if there is an event on input date
@@ -164,8 +170,10 @@ void displayEvents (unsigned int year,
 	*num_event = count;
 }
 
-void displayMonthlyEvents(unsigned int month, unsigned int year,
-			  unsigned int* coord_x, unsigned int* coord_y)
+void displayMonthlyEvents(unsigned int month, 
+			  unsigned int year,
+			  unsigned int* coord_x, 
+			  unsigned int* coord_y)
 {
 	// Get number of days on input month
 	unsigned int month_len = getMonthDays(month, year);
