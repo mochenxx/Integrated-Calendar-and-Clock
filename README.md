@@ -36,7 +36,7 @@ This project is a C-based integrated calendar and clock application. It provides
 - Store and load your added city time when using this feature to easily view the local time for your interested locations
 
 ### One more thing
-This project adopts modular programming which emphasize on breaking large program into small problems to increase maintainability, readability of the code and to make the program handy to make any changes in future or to correct the errors. It allows
+This project adopts modular programming which emphasize on breaking large program into small problems to increase maintainability, readability of the code and to make the program handy to make any changes in future or to correct the errors.
 
 ## Videos
 
