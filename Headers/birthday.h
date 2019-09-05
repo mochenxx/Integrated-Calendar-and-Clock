@@ -17,7 +17,8 @@
 #include <conio.h>
 #include "dateInfo.h"
 
-/* Define Birthday structure
+/* 
+ * Define Birthday structure
  * including date info and friend's name 
  */
 typedef struct{
