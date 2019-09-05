@@ -84,8 +84,8 @@ unsigned int getEventListCount(void);
  * @param[in] month - input month
  * @param[in] day - input day
  * @param[in] index - If there is a event,
- *					 then pass the index of event list to this param;
- *				   - Otherwise, it points to a zero value.
+ *		      then pass the index of event list to this param;
+ *	            - Otherwise, it points to a zero value.
  *
  * @returns - boolean value true if that date is a event, otherwise false
  */
@@ -125,7 +125,7 @@ void displayEvents(unsigned int year,
  * @returns - none
  */
 void displayMonthlyEvents(unsigned int month, unsigned int year,
-						  unsigned int* coord_x, unsigned int* coord_y);
+			  unsigned int* coord_x, unsigned int* coord_y);
 
 /*
  * This function asks if user wants to delete event on a given date,
