@@ -13,7 +13,7 @@
 
 #pragma warning(disable : 4996)
 unsigned int birthday_list_count = 0;			 // birthday list count number
-BdayFileRecord birthday_list[BIRTHDAY_LIST_MAX]; // birthday list
+BdayFileRecord birthday_list[BIRTHDAY_LIST_MAX];	 // birthday list
 
 const BdayFileRecord* getBirthdayList(void)
 {
@@ -107,7 +107,7 @@ void displayBirthdays(unsigned int month,
 {
 	unsigned int i, count = 0;
 	*is_birthday = 0;	// Flag indicates if there is a birthday
-						// 0 by default
+				// 0 by default
 
 	/* Traversal birthday_list to check if input date has a birthday */
 	for (i = 0; i < birthday_list_count; i++)
@@ -144,9 +144,9 @@ void displayBirthdays(unsigned int month,
 
 void askDeleteBday(unsigned int* is_birthday_list, unsigned int* length)
 {
-	unsigned char choice = 0;		// User's choice to delete birthday or not
+	unsigned char choice = 0;	// User's choice to delete birthday or not
 	unsigned int delete_num = 0;	// Number of order for the friend
-	char delete_name[51] = {0};		// Name string that will be deleted
+	char delete_name[51] = {0};	// Name string that will be deleted
 	unsigned int i;
 
 	// Get user choice for deleting birthday or not
