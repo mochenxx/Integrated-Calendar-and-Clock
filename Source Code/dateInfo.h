@@ -15,7 +15,7 @@
 
 /* Check leap year */
 #define LEAPYEAR(year) ((year % 400 == 0)\
-						||((year % 4 == 0) && (year % 100 != 0)))
+			||((year % 4 == 0) && (year % 100 != 0)))
 
 /* Date string maximum length */
 #define DATE_MAX_LIMIT 10 
@@ -103,10 +103,10 @@ int getDayOfWeek(unsigned int day, unsigned int month, unsigned int year);
  *		  6		   June				30
  *		  7		   July				31
  *		  8		   August			31
- *		  9		   September		30
- *		  10	   October			31
- *		  11	   November			30
- *		  12	   December			31
+ *		  9		   September		        30
+ *		  10	  	   October			31
+ *		  11	           November			30
+ *		  12	           December			31
  *
  * @param[in] month - input month (1 = Jan, 2 = Feb, ...,12 = Dec)
  * @param[in] year - input year
