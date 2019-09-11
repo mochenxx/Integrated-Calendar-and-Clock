@@ -1,4 +1,4 @@
-# Integrated-Calendar-and-Clock-App
+# Integrated Calendar and Clock App
 This project is a C-based integrated calendar and clock application. It provides an easy way to select dates within a command-line calendar, manage birthdays, display and schedule events. Also, this application implements stopwatch, countdown timer, and world clock functionalities.
 
 ## Table of Contents
